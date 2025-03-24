@@ -1,0 +1,346 @@
+(venv) Oumuamua:project-ganymede adityak$ python ground_truth_gen.py
+Found 48 new files to process out of 48 total files
+Processing files:   0%|                                                                                                                                                                                                    | 0/48 [00:00<?, ?it/s]
+Processing file: 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/1MLRlL9W69PMWAcTF-rV36Q.jpeg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for 1MLRlL9W69PMWAcTF-rV36Q.jpeg (attempt 1/3)...
+Successfully received response for 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Successfully processed: 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Processing files:   2%|███▉                                                                                                                                                                                        | 1/48 [00:06<05:04,  6.47s/it]
+Processing file: 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/1_wb4T27TbmOlcuZfcETHhSQ.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for 1_wb4T27TbmOlcuZfcETHhSQ.jpg (attempt 1/3)...
+Successfully received response for 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Successfully processed: 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Processing files:   4%|███████▊                                                                                                                                                                                    | 2/48 [00:16<06:29,  8.46s/it]
+Processing file: 2024-Form-W-2-1.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/2024-Form-W-2-1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for 2024-Form-W-2-1.pdf (attempt 1/3)...
+Successfully received response for 2024-Form-W-2-1.pdf
+Successfully processed: 2024-Form-W-2-1.pdf
+Processing files:   6%|███████████▊                                                                                                                                                                                | 3/48 [00:21<05:17,  7.07s/it]
+Processing file: 4biahkmthcf41.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/4biahkmthcf41.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for 4biahkmthcf41.jpg (attempt 1/3)...
+Successfully received response for 4biahkmthcf41.jpg
+Successfully processed: 4biahkmthcf41.jpg
+Processing files:   8%|███████████████▋                                                                                                                                                                            | 4/48 [00:26<04:26,  6.05s/it]
+Processing file: BBAV-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/BBAV-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for BBAV-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for BBAV-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: BBAV-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  10%|███████████████████▌                                                                                                                                                                        | 5/48 [00:30<03:54,  5.45s/it]
+Processing file: BBT-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/BBT-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for BBT-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for BBT-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: BBT-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  12%|███████████████████████▌                                                                                                                                                                    | 6/48 [00:38<04:25,  6.32s/it]
+Processing file: Bank-Statement-Template-1-TemplateLab.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Bank-Statement-Template-1-TemplateLab.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Bank-Statement-Template-1-TemplateLab.pdf (attempt 1/3)...
+Successfully received response for Bank-Statement-Template-1-TemplateLab.pdf
+Successfully processed: Bank-Statement-Template-1-TemplateLab.pdf
+Processing files:  15%|███████████████████████████▍                                                                                                                                                                | 7/48 [00:43<03:58,  5.83s/it]
+Processing file: Bank-Statement-Template-2-TemplateLab.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Bank-Statement-Template-2-TemplateLab.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Bank-Statement-Template-2-TemplateLab.pdf (attempt 1/3)...
+Successfully received response for Bank-Statement-Template-2-TemplateLab.pdf
+Successfully processed: Bank-Statement-Template-2-TemplateLab.pdf
+Processing files:  17%|███████████████████████████████▎                                                                                                                                                            | 8/48 [00:51<04:24,  6.61s/it]
+Processing file: Brandys-walmart-receipt-8.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Brandys-walmart-receipt-8.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Brandys-walmart-receipt-8.png (attempt 1/3)...
+Successfully received response for Brandys-walmart-receipt-8.png
+Successfully processed: Brandys-walmart-receipt-8.png
+Processing files:  19%|███████████████████████████████████▎                                                                                                                                                        | 9/48 [00:59<04:37,  7.11s/it]
+Processing file: Inv5009113.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Inv5009113.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Inv5009113.pdf (attempt 1/3)...
+Successfully received response for Inv5009113.pdf
+Successfully processed: Inv5009113.pdf
+Wrote batch of 10 entries to ground_truth_dataset.jsonl
+Processing files:  21%|██████████████████████████████████████▉                                                                                                                                                    | 10/48 [01:03<03:53,  6.14s/it]
+Processing file: Invoice INV-0853.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Invoice%20INV-0853.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Invoice INV-0853.pdf (attempt 1/3)...
+Successfully received response for Invoice INV-0853.pdf
+Successfully processed: Invoice INV-0853.pdf
+Processing files:  23%|██████████████████████████████████████████▊                                                                                                                                                | 11/48 [01:07<03:21,  5.44s/it]
+Processing file: Invoice.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Invoice.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Invoice.pdf (attempt 1/3)...
+Successfully received response for Invoice.pdf
+Successfully processed: Invoice.pdf
+Processing files:  25%|██████████████████████████████████████████████▊                                                                                                                                            | 12/48 [01:12<03:03,  5.09s/it]
+Processing file: Lloyds-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Lloyds-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Lloyds-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  27%|██████████████████████████████████████████████████▋                                                                                                                                        | 13/48 [01:17<03:04,  5.27s/it]
+Processing file: Nationwide-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Nationwide-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Nationwide-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  29%|██████████████████████████████████████████████████████▌                                                                                                                                    | 14/48 [01:23<03:00,  5.32s/it]
+Processing file: RBS-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/RBS-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for RBS-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for RBS-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: RBS-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  31%|██████████████████████████████████████████████████████████▍                                                                                                                                | 15/48 [01:29<03:01,  5.50s/it]
+Processing file: Receipts-Papers.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Receipts-Papers.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for Receipts-Papers.png (attempt 1/3)...
+Successfully received response for Receipts-Papers.png
+Successfully processed: Receipts-Papers.png
+Processing files:  33%|██████████████████████████████████████████████████████████████▎                                                                                                                            | 16/48 [01:31<02:25,  4.56s/it]
+Processing file: TCF-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TCF-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for TCF-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for TCF-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: TCF-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  35%|██████████████████████████████████████████████████████████████████▏                                                                                                                        | 17/48 [01:38<02:47,  5.40s/it]
+Processing file: TD-Bank-Statement-TemplateLab.com_.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TD-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for TD-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Successfully received response for TD-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: TD-Bank-Statement-TemplateLab.com_.pdf
+Processing files:  38%|██████████████████████████████████████████████████████████████████████▏                                                                                                                    | 18/48 [01:44<02:42,  5.43s/it]
+Processing file: TaxInvoiceAD1242501AN32927.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TaxInvoiceAD1242501AN32927.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for TaxInvoiceAD1242501AN32927.pdf (attempt 1/3)...
+Successfully received response for TaxInvoiceAD1242501AN32927.pdf
+Successfully processed: TaxInvoiceAD1242501AN32927.pdf
+Processing files:  40%|██████████████████████████████████████████████████████████████████████████                                                                                                                 | 19/48 [01:49<02:33,  5.28s/it]
+Processing file: UNMzX.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/UNMzX.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for UNMzX.jpg (attempt 1/3)...
+Successfully received response for UNMzX.jpg
+Successfully processed: UNMzX.jpg
+Wrote batch of 10 entries to ground_truth_dataset.jsonl
+Processing files:  42%|█████████████████████████████████████████████████████████████████████████████▉                                                                                                             | 20/48 [01:53<02:18,  4.94s/it]
+Processing file: UNMzX.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/UNMzX.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for UNMzX.pdf (attempt 1/3)...
+Successfully received response for UNMzX.pdf
+Successfully processed: UNMzX.pdf
+Processing files:  44%|█████████████████████████████████████████████████████████████████████████████████▊                                                                                                         | 21/48 [01:59<02:19,  5.15s/it]
+Processing file: W2-sample3.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2-sample3.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for W2-sample3.pdf (attempt 1/3)...
+Successfully received response for W2-sample3.pdf
+Successfully processed: W2-sample3.pdf
+Processing files:  46%|█████████████████████████████████████████████████████████████████████████████████████▋                                                                                                     | 22/48 [02:09<02:58,  6.86s/it]
+Processing file: W2sample1.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2sample1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for W2sample1.pdf (attempt 1/3)...
+Successfully received response for W2sample1.pdf
+Successfully processed: W2sample1.pdf
+Processing files:  48%|█████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                 | 23/48 [02:20<03:23,  8.14s/it]
+Processing file: W2sample2.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2sample2.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for W2sample2.pdf (attempt 1/3)...
+Successfully received response for W2sample2.pdf
+Successfully processed: W2sample2.pdf
+Processing files:  50%|█████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                             | 24/48 [02:32<03:37,  9.08s/it]
+Processing file: anothersample.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/anothersample.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for anothersample.pdf (attempt 1/3)...
+Successfully received response for anothersample.pdf
+Successfully processed: anothersample.pdf
+Processing files:  52%|█████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                         | 25/48 [02:38<03:08,  8.20s/it]
+Processing file: bank-statement-template-01.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/bank-statement-template-01.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for bank-statement-template-01.pdf (attempt 1/3)...
+Successfully received response for bank-statement-template-01.pdf
+Successfully processed: bank-statement-template-01.pdf
+Processing files:  54%|█████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                     | 26/48 [02:42<02:30,  6.85s/it]
+Processing file: bank-statement-template-03.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/bank-statement-template-03.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for bank-statement-template-03.pdf (attempt 1/3)...
+Successfully received response for bank-statement-template-03.pdf
+Successfully processed: bank-statement-template-03.pdf
+Processing files:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                 | 27/48 [02:45<02:04,  5.91s/it]
+Processing file: inv-st.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/inv-st.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for inv-st.jpg (attempt 1/3)...
+Successfully received response for inv-st.jpg
+Successfully processed: inv-st.jpg
+Processing files:  58%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                              | 28/48 [02:49<01:42,  5.13s/it]
+Processing file: inv-test.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/inv-test.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for inv-test.pdf (attempt 1/3)...
+Successfully received response for inv-test.pdf
+Successfully processed: inv-test.pdf
+Processing files:  60%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                          | 29/48 [02:57<01:55,  6.05s/it]
+Processing file: makereceipt-receipt-maker.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/makereceipt-receipt-maker.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for makereceipt-receipt-maker.jpg (attempt 1/3)...
+Successfully received response for makereceipt-receipt-maker.jpg
+Successfully processed: makereceipt-receipt-maker.jpg
+Wrote batch of 10 entries to ground_truth_dataset.jsonl
+Processing files:  62%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                      | 30/48 [02:59<01:26,  4.78s/it]
+Processing file: onemore.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/onemore.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for onemore.pdf (attempt 1/3)...
+Successfully received response for onemore.pdf
+Successfully processed: onemore.pdf
+Processing files:  65%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                  | 31/48 [03:06<01:33,  5.53s/it]
+Processing file: original.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/original.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for original.jpg (attempt 1/3)...
+Successfully received response for original.jpg
+Successfully processed: original.jpg
+Processing files:  67%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                              | 32/48 [03:09<01:17,  4.87s/it]
+Processing file: owytvbdwuwq81.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/owytvbdwuwq81.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for owytvbdwuwq81.jpg (attempt 1/3)...
+Successfully received response for owytvbdwuwq81.jpg
+Successfully processed: owytvbdwuwq81.jpg
+Processing files:  69%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                          | 33/48 [03:13<01:08,  4.56s/it]
+Processing file: parts-of-Digital-receipt-1.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/parts-of-Digital-receipt-1.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for parts-of-Digital-receipt-1.png (attempt 1/3)...
+Successfully received response for parts-of-Digital-receipt-1.png
+Successfully processed: parts-of-Digital-receipt-1.png
+Processing files:  71%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                      | 34/48 [03:17<01:01,  4.41s/it]
+Processing file: receipts-to-cloud.webp
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/receipts-to-cloud.webp?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Skipping unsupported file type: receipts-to-cloud.webp
+
+Processing file: sample_&&_special.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special.pdf (attempt 1/3)...
+Successfully received response for sample_&&_special.pdf
+Successfully processed: sample_&&_special.pdf
+Processing files:  75%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                              | 36/48 [03:24<00:47,  3.96s/it]
+Processing file: sample_&&_special1.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special1.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special1.png (attempt 1/3)...
+Successfully received response for sample_&&_special1.png
+Successfully processed: sample_&&_special1.png
+Processing files:  77%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                          | 37/48 [03:27<00:41,  3.80s/it]
+Processing file: sample_&&_special2.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special2.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special2.jpg (attempt 1/3)...
+Successfully received response for sample_&&_special2.jpg
+Error parsing Mistral response for sample_&&_special2.jpg: Invalid control character at: line 7 column 52 (char 194)
+Failed to parse response for file sample_&&_special2.jpg
+Processing files:  79%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                       | 38/48 [03:33<00:43,  4.36s/it]
+Processing file: sample_&&_special3.jpeg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special3.jpeg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special3.jpeg (attempt 1/3)...
+Successfully received response for sample_&&_special3.jpeg
+Successfully processed: sample_&&_special3.jpeg
+Processing files:  81%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                   | 39/48 [03:36<00:35,  3.92s/it]
+Processing file: sample_&&_special_1.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special_1.pdf (attempt 1/3)...
+Successfully received response for sample_&&_special_1.pdf
+Successfully processed: sample_&&_special_1.pdf
+Processing files:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                               | 40/48 [03:40<00:31,  3.94s/it]
+Processing file: sample_&&_special_2.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_2.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special_2.pdf (attempt 1/3)...
+Successfully received response for sample_&&_special_2.pdf
+Successfully processed: sample_&&_special_2.pdf
+Processing files:  85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                           | 41/48 [03:46<00:31,  4.48s/it]
+Processing file: sample_&&_special_33.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_33.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for sample_&&_special_33.pdf (attempt 1/3)...
+Successfully received response for sample_&&_special_33.pdf
+Successfully processed: sample_&&_special_33.pdf
+Wrote batch of 10 entries to ground_truth_dataset.jsonl
+Processing files:  88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                       | 42/48 [04:15<01:10, 11.71s/it]
+Processing file: standard-grocery-receipt-template.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/standard-grocery-receipt-template.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for standard-grocery-receipt-template.png (attempt 1/3)...
+Successfully received response for standard-grocery-receipt-template.png
+Successfully processed: standard-grocery-receipt-template.png
+Processing files:  90%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                   | 43/48 [04:20<00:48,  9.68s/it]
+Processing file: testinginv.png
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/testinginv.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for testinginv.png (attempt 1/3)...
+Successfully received response for testinginv.png
+Successfully processed: testinginv.png
+Processing files:  92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍               | 44/48 [04:23<00:30,  7.75s/it]
+Processing file: w2_form_employee_4up_m.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_4up_m.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for w2_form_employee_4up_m.jpg (attempt 1/3)...
+Successfully received response for w2_form_employee_4up_m.jpg
+Successfully processed: w2_form_employee_4up_m.jpg
+Processing files:  94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎           | 45/48 [04:27<00:19,  6.53s/it]
+Processing file: w2_form_employee_4up_m.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_4up_m.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for w2_form_employee_4up_m.pdf (attempt 1/3)...
+Successfully received response for w2_form_employee_4up_m.pdf
+Successfully processed: w2_form_employee_4up_m.pdf
+Processing files:  96%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏       | 46/48 [04:32<00:12,  6.10s/it]
+Processing file: w2_form_employee_copy_m.jpg
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_copy_m.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for w2_form_employee_copy_m.jpg (attempt 1/3)...
+Successfully received response for w2_form_employee_copy_m.jpg
+Successfully processed: w2_form_employee_copy_m.jpg
+Processing files:  98%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████    | 47/48 [04:34<00:04,  4.93s/it]
+Processing file: yetanothersample.pdf
+SAS URL: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/yetanothersample.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T00%3A04%3A56Z&st=2025-03-23T16%3A04%3A56Z&spr=https&sig=IW1WTQFu1Hrw7fn1O7AyuA7wDVQUm484cCY%2BR6oAiYQ%3D
+--------------------------------------------------
+Calling Mistral API for yetanothersample.pdf (attempt 1/3)...
+Successfully received response for yetanothersample.pdf
+Successfully processed: yetanothersample.pdf
+Wrote batch of 6 entries to ground_truth_dataset.jsonl
+Processing files: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [04:40<00:00,  5.85s/it]
+
+Processing complete. 46 files successfully processed.
+Results saved to ground_truth_dataset.jsonl in JSON Lines format.
