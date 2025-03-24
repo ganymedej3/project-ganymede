@@ -1,4 +1,4 @@
-# Azure Financial Document Classifier
+# Who’s Testing AI, and How? An AI-Assisted Evaluation Framework
 
 This project implements an AI-driven evaluation framework for testing and validating Azure Document Intelligence models for financial document classification.
 
