@@ -1,6 +1,16 @@
 # Who’s Testing AI, and How? An AI-Assisted Evaluation Framework
 
-This project implements an AI-driven evaluation framework for testing and validating Azure Document Intelligence models for financial document classification.
+Who is testing AI, and how? Traditional AI evaluation relies on static datasets, manual validation, and predefined benchmarks, but these methods struggle to scale with evolving AI models, that are often iteratively trained to improve their performance. Project Ganymede, an AI-Assisted Evaluation Framework automates AI model testing by using one AI model to generate ground truth data and benchmark another—without much human intervention.
+
+A key innovation in this approach is leveraging Mistral, a large language model (LLM), in a discriminative role rather than a purely generative one. By classifying documents based on OCR-extracted text, the LLM functions as an adaptive ground truth generator, enabling dynamic, AI-driven evaluation of other AI models performing classification or extraction tasks.
+
+While this project demonstrates the concept in financial document classification, the methodology is universal and can be extended to evaluate AI models in NLP, computer vision, and other machine learning applications.
+
+Highlights:
+✅ How AI can autonomously generate ground truth datasets for model evaluation
+✅ How LLMs can function as discriminative models for classification benchmarking
+✅ Applying precision, recall, F1-score, and confidence calibration in AI evaluation
+✅ The broader impact of AI-driven evaluation beyond document classification
 
 ## Project Overview
 
