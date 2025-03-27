@@ -46,6 +46,7 @@ MISTRAL_PROMPT = (
     "}"
 )
 
+# this is redundant & unnecessary - needs further testing to confirm & remove
 def get_blob_sas_url(blob_client):
     """
     Generate a direct blob SAS URL for a specific blob.
@@ -54,7 +55,7 @@ def get_blob_sas_url(blob_client):
     # Get the base URL without any SAS token
     base_url = blob_client.url
     
-    # Construct the full URL with SAS token
+    # Construct the full URL with SAS token 
     direct_url = f"{base_url}"
     
     # Print the URL for manual review
