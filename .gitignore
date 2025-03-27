@@ -20,7 +20,6 @@ ENV/
 # Generated data files
 *.jsonl
 ground_truth_dataset*.jsonl
-data/
 
 # IDE specific files
 .idea/
