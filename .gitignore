@@ -18,8 +18,7 @@ ENV/
 *.env
 
 # Generated data files
-*.jsonl
-ground_truth_dataset*.jsonl
+
 
 # IDE specific files
 .idea/
