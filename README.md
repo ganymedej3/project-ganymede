@@ -36,6 +36,8 @@ python ground_truth_gen.py
 
 ### 2. Azure Document Classification
 
+This is our MUT - Model Under Test (aka. Application Under Test)
+
 The `az_fin_doc_classifier.py` script:
 - Connects to the same Azure Blob Storage to access the documents
 - Submits each document to Azure Document Intelligence using a custom classification model
