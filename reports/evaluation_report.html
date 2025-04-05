@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Evaluation Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f4; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0px 0px 10px #ccc; }
+        h1 { color: #333366; text-align: center; }
+        h2 { color: #222; }
+        h3 { color: #333; }
+        h4 { color: #444; }
+        pre { background: #eee; padding: 10px; border-radius: 4px; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        table, th, td { border: 1px solid #ccc; }
+        th, td { padding: 8px; text-align: center; }
+        .section { margin-bottom: 20px; }
+        .chart { text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Assisted Evaluation Report</h1>
+        
+        <!-- Definitions Section -->
+        <div class="section">
+            <h2>Definitions</h2>
+            <p><strong>Precision:</strong> The fraction of predicted positive instances that are truly positive. It measures the accuracy of the positive predictions.</p>
+            <p><strong>Recall:</strong> The fraction of actual positive instances that are correctly predicted. It measures the ability to identify all positive instances.</p>
+            <p><strong>F1-Score:</strong> The harmonic mean of precision and recall, providing a balance between the two—especially useful when the class distribution is imbalanced.</p>
+        </div>
+        
+        <div class="section">
+            <h2>1. Overall Accuracy</h2>
+            <p>MUT correctly classified 29 out of 46 documents.</p>
+            <p><b>Overall Accuracy:</b> 63.04%</p>
+        </div>
+        
+        <div class="section">
+            <h2>2. Precision, Recall, and F1-Score (Per Document Type)</h2>
+            <p><b>Best Performance:</b> W2 (F1-score: 0.84)</p>
+            <p><b>Worst Performance:</b> None of the above (F1-score: 0.00)</p>
+            <table>
+                <tr>
+                    <th>Document Type</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                    <th>Support</th>
+                </tr>
+                <tr><td>Invoice</td><td>0.62</td><td>0.38</td><td>0.48</td><td>13.0</td></tr><tr><td>Receipt</td><td>0.54</td><td>0.78</td><td>0.64</td><td>9.0</td></tr><tr><td>W2</td><td>0.89</td><td>0.80</td><td>0.84</td><td>10.0</td></tr><tr><td>Bank-statement</td><td>0.56</td><td>0.82</td><td>0.67</td><td>11.0</td></tr><tr><td>None of the above</td><td>0.00</td><td>0.00</td><td>0.00</td><td>3.0</td></tr>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>3. Misclassification Insights</h2>
+            
+<table>
+  <tr>
+    <th>Document Type</th>
+    <th>Recall</th>
+    <th>Correct</th>
+    <th>Total</th>
+    <th>Misclassified</th>
+    <th>Most Common Misclassification</th>
+  </tr>
+<tr><td>Bank-statement</td><td>81.82%</td><td>9</td><td>11</td><td>2</td><td>Invoice</td></tr><tr><td>Invoice</td><td>38.46%</td><td>5</td><td>13</td><td>8</td><td>Receipt</td></tr><tr><td>None of the above</td><td>0.00%</td><td>0</td><td>3</td><td>3</td><td>Bank-statement</td></tr><tr><td>Receipt</td><td>77.78%</td><td>7</td><td>9</td><td>2</td><td>Invoice</td></tr><tr><td>W2</td><td>80.00%</td><td>8</td><td>10</td><td>2</td><td>Receipt</td></tr></table>
+        </div>
+        
+        <div class="section">
+            <h2>4. Confidence Score Analysis</h2>
+            
+<table>
+  <tr>
+    <th>Document Type</th>
+    <th>Average MUT Confidence</th>
+    <th>Ground Truth Confidence</th>
+    <th>Drift</th>
+  </tr>
+<tr><td>Bank-statement</td><td>0.42</td><td>0.95</td><td>0.53</td></tr><tr><td>Invoice</td><td>0.27</td><td>0.95</td><td>0.68</td></tr><tr><td>None of the above</td><td>0.39</td><td>0.95</td><td>0.56</td></tr><tr><td>Receipt</td><td>0.47</td><td>0.95</td><td>0.48</td></tr><tr><td>W2</td><td>0.50</td><td>0.98</td><td>0.48</td></tr></table>
+            <p>Overall, there are 9 low-confidence MUT predictions (less than or equal to 0.25). The highest average MUT confidence is observed for W2.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Visual Insights</h2>
+            <div class="chart">
+                <img src="confusion_matrix.png" width="600px"><br>
+                <img src="confidence_distribution.png" width="600px">
+            </div>
+        </div>
+        
+        
+<div class="section">
+  <h2>Understanding the Charts: Ideal vs. Actual</h2>
+  
+  <h3>1. Understanding the Confusion Matrix</h3>
+  <h4>What is an "Ideal" Confusion Matrix?</h4>
+  <p>An ideal confusion matrix would have high values on the diagonal (correct classifications) and low values elsewhere (misclassifications).</p>
+  <h4>Ideal Example (Perfect Classifier)</h4>
+  <pre>             Predicted
+             ---------------------
+             Invoice  Receipt  W2  Bank
+Actual | Invoice    10       0     0    0
+       | Receipt     0      10     0    0
+       | W2          0       0    10    0
+       | Bank        0       0     0   10</pre>
+  <p>Perfect Model - All correct classifications are along the diagonal, with no misclassifications.</p>
+  
+  <h4>What Does Our Actual Confusion Matrix Show?</h4>
+  <pre>                            Invoice  Receipt  W2  Bank-statement  None of the above
+                          ---------------------------------------------------------
+Actual |           Invoice        5        4   0               4                  0
+Actual |           Receipt        1        7   0               1                  0
+Actual |                W2        0        2   8               0                  0
+Actual |    Bank-statement        2        0   0               9                  0
+Actual | None of the above        0        0   1               2                  0
+</pre>
+  <p>Dynamic Insights: Compare the counts along the diagonal with the off-diagonal values to understand misclassifications.</p>
+  
+  <h3>2. Understanding the Confidence Score Chart</h3>
+  <h4>What Would an "Ideal" Confidence Score Chart Look Like?</h4>
+  <p>Ideally, Mistral and Azure should have very similar confidence scores for each document. The histogram bars should be concentrated around 0.0 - 0.2 (small differences).</p>
+  <h4>Ideal Confidence Score Chart</h4>
+  <pre>|*************
+|*****************
+|*******************
+|*************
+|*****
+|*
+----------------------------
+  0.0   0.2   0.4   0.6   0.8
+  (Small Confidence Differences - Good Agreement)</pre>
+  
+  <h4>What Does Our Actual Confidence Score Chart Show?</h4>
+  <pre>|
+|******
+|**********
+|***************
+|
+----------------------------
+  0.0   0.2   0.4   0.6   0.8</pre>
+  <p>Dynamic Insights: Larger bars toward higher differences indicate greater disagreement between models.</p>
+</div>
+
+        
+    </div>
+</body>
+</html>

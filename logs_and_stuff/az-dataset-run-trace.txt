@@ -1,0 +1,733 @@
+Oumuamua:project-ganymede adityak$ python az_fin_doc_classifier.py
+Starting Azure Document Intelligence classification process...
+Connecting to Azure Blob Storage: https://ganymedej.blob.core.windows.net
+Successfully connected to container: ganymedej
+Found 48 new files to process out of 48 total files.
+Created new predictions file: mut_classification_predictions_dataset.jsonl
+
+==================== STEP 1: Submitting POST requests ====================
+Submitting 48 documents for classification...
+Submitting POST requests:   0%|                                                                                                                   | 0/48 [00:00<?, ?it/s]
+Processing file: 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Creating new blob client for 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+SAS URL for findocs-testdata/1MLRlL9W69PMWAcTF-rV36Q.jpeg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/1MLRlL9W69PMWAcTF-rV36Q.jpeg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: 1MLRlL9W69PMWAcTF-rV36Q.jpeg to Azure Document Intelligence...
+Submitting analysis request for 1MLRlL9W69PMWAcTF-rV36Q.jpeg (attempt 1/3)...
+Received Operation-Location for 1MLRlL9W69PMWAcTF-rV36Q.jpeg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/8838a5cb-7681-4b52-bcf1-b370de5f26f8?api-version=2024-11-30
+Submitting POST requests:   2%|██▏                                                                                                        | 1/48 [00:01<01:12,  1.55s/it]
+Processing file: 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Creating new blob client for 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+SAS URL for findocs-testdata/1_wb4T27TbmOlcuZfcETHhSQ.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/1_wb4T27TbmOlcuZfcETHhSQ.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: 1_wb4T27TbmOlcuZfcETHhSQ.jpg to Azure Document Intelligence...
+Submitting analysis request for 1_wb4T27TbmOlcuZfcETHhSQ.jpg (attempt 1/3)...
+Received Operation-Location for 1_wb4T27TbmOlcuZfcETHhSQ.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/2dc4a152-04a4-4562-8ab2-c2817e15e5ea?api-version=2024-11-30
+Submitting POST requests:   4%|████▍                                                                                                      | 2/48 [00:02<00:59,  1.29s/it]
+Processing file: 2024-Form-W-2-1.pdf
+Creating new blob client for 2024-Form-W-2-1.pdf
+SAS URL for findocs-testdata/2024-Form-W-2-1.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/2024-Form-W-2-1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: 2024-Form-W-2-1.pdf to Azure Document Intelligence...
+Submitting analysis request for 2024-Form-W-2-1.pdf (attempt 1/3)...
+Received Operation-Location for 2024-Form-W-2-1.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/fc720cf6-2bcb-406f-a208-398824764a68?api-version=2024-11-30
+Submitting POST requests:   6%|██████▋                                                                                                    | 3/48 [00:03<00:53,  1.18s/it]
+Processing file: 4biahkmthcf41.jpg
+Creating new blob client for 4biahkmthcf41.jpg
+SAS URL for findocs-testdata/4biahkmthcf41.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/4biahkmthcf41.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: 4biahkmthcf41.jpg to Azure Document Intelligence...
+Submitting analysis request for 4biahkmthcf41.jpg (attempt 1/3)...
+Received Operation-Location for 4biahkmthcf41.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5c2129e8-518d-46b9-99e8-1a72ef4518c8?api-version=2024-11-30
+Submitting POST requests:   8%|████████▉                                                                                                  | 4/48 [00:04<00:51,  1.17s/it]
+Processing file: BBAV-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for BBAV-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/BBAV-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/BBAV-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: BBAV-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for BBAV-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for BBAV-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5fcf5083-32ef-4afe-ad2f-8a1e378258c1?api-version=2024-11-30
+Submitting POST requests:  10%|███████████▏                                                                                               | 5/48 [00:05<00:48,  1.12s/it]
+Processing file: BBT-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for BBT-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/BBT-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/BBT-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: BBT-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for BBT-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for BBT-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d2968126-2e5d-4e54-98a4-ff933bac4459?api-version=2024-11-30
+Submitting POST requests:  12%|█████████████▍                                                                                             | 6/48 [00:06<00:45,  1.09s/it]
+Processing file: Bank-Statement-Template-1-TemplateLab.pdf
+Creating new blob client for Bank-Statement-Template-1-TemplateLab.pdf
+SAS URL for findocs-testdata/Bank-Statement-Template-1-TemplateLab.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Bank-Statement-Template-1-TemplateLab.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Bank-Statement-Template-1-TemplateLab.pdf to Azure Document Intelligence...
+Submitting analysis request for Bank-Statement-Template-1-TemplateLab.pdf (attempt 1/3)...
+Received Operation-Location for Bank-Statement-Template-1-TemplateLab.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b790384f-c703-4064-85b6-c09af313dd44?api-version=2024-11-30
+Submitting POST requests:  15%|███████████████▌                                                                                           | 7/48 [00:07<00:43,  1.07s/it]
+Processing file: Bank-Statement-Template-2-TemplateLab.pdf
+Creating new blob client for Bank-Statement-Template-2-TemplateLab.pdf
+SAS URL for findocs-testdata/Bank-Statement-Template-2-TemplateLab.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Bank-Statement-Template-2-TemplateLab.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Bank-Statement-Template-2-TemplateLab.pdf to Azure Document Intelligence...
+Submitting analysis request for Bank-Statement-Template-2-TemplateLab.pdf (attempt 1/3)...
+Received Operation-Location for Bank-Statement-Template-2-TemplateLab.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/27431968-35e8-4b35-8c42-3aca90848278?api-version=2024-11-30
+Submitting POST requests:  17%|█████████████████▊                                                                                         | 8/48 [00:09<00:44,  1.11s/it]
+Processing file: Brandys-walmart-receipt-8.png
+Creating new blob client for Brandys-walmart-receipt-8.png
+SAS URL for findocs-testdata/Brandys-walmart-receipt-8.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Brandys-walmart-receipt-8.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: Brandys-walmart-receipt-8.png to Azure Document Intelligence...
+Submitting analysis request for Brandys-walmart-receipt-8.png (attempt 1/3)...
+Received Operation-Location for Brandys-walmart-receipt-8.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/09ae6b5c-e5cc-459b-8f49-13e94e86f5f0?api-version=2024-11-30
+Submitting POST requests:  19%|████████████████████                                                                                       | 9/48 [00:12<01:05,  1.68s/it]
+Processing file: Inv5009113.pdf
+Creating new blob client for Inv5009113.pdf
+SAS URL for findocs-testdata/Inv5009113.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Inv5009113.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Inv5009113.pdf to Azure Document Intelligence...
+Submitting analysis request for Inv5009113.pdf (attempt 1/3)...
+Received Operation-Location for Inv5009113.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d42852a6-c1fa-4fb7-bb54-909da8121ca0?api-version=2024-11-30
+Submitting POST requests:  21%|██████████████████████                                                                                    | 10/48 [00:13<00:56,  1.48s/it]
+Processing file: Invoice INV-0853.pdf
+Creating new blob client for Invoice INV-0853.pdf
+SAS URL for findocs-testdata/Invoice INV-0853.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Invoice%20INV-0853.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Invoice INV-0853.pdf to Azure Document Intelligence...
+Submitting analysis request for Invoice INV-0853.pdf (attempt 1/3)...
+Received Operation-Location for Invoice INV-0853.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/be9a22fa-0422-4ef3-ba89-db6d9b0ba3ce?api-version=2024-11-30
+Submitting POST requests:  23%|████████████████████████▎                                                                                 | 11/48 [00:14<00:49,  1.33s/it]
+Processing file: Invoice.pdf
+Creating new blob client for Invoice.pdf
+SAS URL for findocs-testdata/Invoice.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Invoice.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Invoice.pdf to Azure Document Intelligence...
+Submitting analysis request for Invoice.pdf (attempt 1/3)...
+Received Operation-Location for Invoice.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/c18e6780-ce80-495d-af3c-d141ddfb9114?api-version=2024-11-30
+Submitting POST requests:  25%|██████████████████████████▌                                                                               | 12/48 [00:15<00:44,  1.23s/it]
+Processing file: Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for Lloyds-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/Lloyds-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Lloyds-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Lloyds-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for Lloyds-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for Lloyds-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/404f7308-36b6-4366-82db-cdec7a9a66eb?api-version=2024-11-30
+Submitting POST requests:  27%|████████████████████████████▋                                                                             | 13/48 [00:16<00:40,  1.15s/it]
+Processing file: Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for Nationwide-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/Nationwide-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Nationwide-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: Nationwide-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for Nationwide-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for Nationwide-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/4db4f6eb-d495-42d7-85b3-beb051b76f86?api-version=2024-11-30
+Submitting POST requests:  29%|██████████████████████████████▉                                                                           | 14/48 [00:17<00:37,  1.11s/it]
+Processing file: RBS-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for RBS-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/RBS-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/RBS-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: RBS-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for RBS-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for RBS-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/cd7656b9-81f6-46a6-85b4-6c6630426613?api-version=2024-11-30
+Submitting POST requests:  31%|█████████████████████████████████▏                                                                        | 15/48 [00:18<00:36,  1.09s/it]
+Processing file: Receipts-Papers.png
+Creating new blob client for Receipts-Papers.png
+SAS URL for findocs-testdata/Receipts-Papers.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/Receipts-Papers.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: Receipts-Papers.png to Azure Document Intelligence...
+Submitting analysis request for Receipts-Papers.png (attempt 1/3)...
+Received Operation-Location for Receipts-Papers.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/cc158146-e4bf-46fd-9f4e-a3a0d4e33937?api-version=2024-11-30
+Submitting POST requests:  33%|███████████████████████████████████▎                                                                      | 16/48 [00:19<00:34,  1.09s/it]
+Processing file: TCF-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for TCF-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/TCF-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TCF-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: TCF-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for TCF-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for TCF-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/451fb41c-ddca-409b-9293-42f6b74ce92d?api-version=2024-11-30
+Submitting POST requests:  35%|█████████████████████████████████████▌                                                                    | 17/48 [00:20<00:32,  1.06s/it]
+Processing file: TD-Bank-Statement-TemplateLab.com_.pdf
+Creating new blob client for TD-Bank-Statement-TemplateLab.com_.pdf
+SAS URL for findocs-testdata/TD-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TD-Bank-Statement-TemplateLab.com_.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: TD-Bank-Statement-TemplateLab.com_.pdf to Azure Document Intelligence...
+Submitting analysis request for TD-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Received Operation-Location for TD-Bank-Statement-TemplateLab.com_.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5b0c707a-32f1-44aa-83a9-17bed1b7ffed?api-version=2024-11-30
+Submitting POST requests:  38%|███████████████████████████████████████▊                                                                  | 18/48 [00:21<00:31,  1.06s/it]
+Processing file: TaxInvoiceAD1242501AN32927.pdf
+Creating new blob client for TaxInvoiceAD1242501AN32927.pdf
+SAS URL for findocs-testdata/TaxInvoiceAD1242501AN32927.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/TaxInvoiceAD1242501AN32927.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: TaxInvoiceAD1242501AN32927.pdf to Azure Document Intelligence...
+Submitting analysis request for TaxInvoiceAD1242501AN32927.pdf (attempt 1/3)...
+Received Operation-Location for TaxInvoiceAD1242501AN32927.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/3e955298-f5ca-4b7e-9465-2dcc3777b5bb?api-version=2024-11-30
+Submitting POST requests:  40%|█████████████████████████████████████████▉                                                                | 19/48 [00:22<00:30,  1.04s/it]
+Processing file: UNMzX.jpg
+Creating new blob client for UNMzX.jpg
+SAS URL for findocs-testdata/UNMzX.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/UNMzX.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: UNMzX.jpg to Azure Document Intelligence...
+Submitting analysis request for UNMzX.jpg (attempt 1/3)...
+Received Operation-Location for UNMzX.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/4d03f1e8-327c-4b69-a3ba-342d97ed12cf?api-version=2024-11-30
+Submitting POST requests:  42%|████████████████████████████████████████████▏                                                             | 20/48 [00:23<00:28,  1.03s/it]
+Processing file: UNMzX.pdf
+Creating new blob client for UNMzX.pdf
+SAS URL for findocs-testdata/UNMzX.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/UNMzX.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: UNMzX.pdf to Azure Document Intelligence...
+Submitting analysis request for UNMzX.pdf (attempt 1/3)...
+Received Operation-Location for UNMzX.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ce8316cb-7aa8-4287-84e8-5455a2d01d78?api-version=2024-11-30
+Submitting POST requests:  44%|██████████████████████████████████████████████▍                                                           | 21/48 [00:24<00:27,  1.03s/it]
+Processing file: W2-sample3.pdf
+Creating new blob client for W2-sample3.pdf
+SAS URL for findocs-testdata/W2-sample3.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2-sample3.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: W2-sample3.pdf to Azure Document Intelligence...
+Submitting analysis request for W2-sample3.pdf (attempt 1/3)...
+Received Operation-Location for W2-sample3.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/92790da2-fc0b-4fa3-a156-13334690f5cc?api-version=2024-11-30
+Submitting POST requests:  46%|████████████████████████████████████████████████▌                                                         | 22/48 [00:25<00:27,  1.06s/it]
+Processing file: W2sample1.pdf
+Creating new blob client for W2sample1.pdf
+SAS URL for findocs-testdata/W2sample1.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2sample1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: W2sample1.pdf to Azure Document Intelligence...
+Submitting analysis request for W2sample1.pdf (attempt 1/3)...
+Received Operation-Location for W2sample1.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/bc942a8e-78d8-4793-b0a4-fcc062a1db70?api-version=2024-11-30
+Submitting POST requests:  48%|██████████████████████████████████████████████████▊                                                       | 23/48 [00:26<00:26,  1.05s/it]
+Processing file: W2sample2.pdf
+Creating new blob client for W2sample2.pdf
+SAS URL for findocs-testdata/W2sample2.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/W2sample2.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: W2sample2.pdf to Azure Document Intelligence...
+Submitting analysis request for W2sample2.pdf (attempt 1/3)...
+Received Operation-Location for W2sample2.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/a54f8248-45a6-4c1e-9458-e1096d663ea0?api-version=2024-11-30
+Submitting POST requests:  50%|█████████████████████████████████████████████████████                                                     | 24/48 [00:27<00:25,  1.06s/it]
+Processing file: anothersample.pdf
+Creating new blob client for anothersample.pdf
+SAS URL for findocs-testdata/anothersample.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/anothersample.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: anothersample.pdf to Azure Document Intelligence...
+Submitting analysis request for anothersample.pdf (attempt 1/3)...
+Received Operation-Location for anothersample.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/a10ce9d3-2267-47dd-844d-5ce23d258e00?api-version=2024-11-30
+Submitting POST requests:  52%|███████████████████████████████████████████████████████▏                                                  | 25/48 [00:28<00:24,  1.08s/it]
+Processing file: bank-statement-template-01.pdf
+Creating new blob client for bank-statement-template-01.pdf
+SAS URL for findocs-testdata/bank-statement-template-01.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/bank-statement-template-01.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: bank-statement-template-01.pdf to Azure Document Intelligence...
+Submitting analysis request for bank-statement-template-01.pdf (attempt 1/3)...
+Received Operation-Location for bank-statement-template-01.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/1c962700-1e70-41c6-8600-707d1de8a79d?api-version=2024-11-30
+Submitting POST requests:  54%|█████████████████████████████████████████████████████████▍                                                | 26/48 [00:29<00:23,  1.06s/it]
+Processing file: bank-statement-template-03.pdf
+Creating new blob client for bank-statement-template-03.pdf
+SAS URL for findocs-testdata/bank-statement-template-03.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/bank-statement-template-03.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: bank-statement-template-03.pdf to Azure Document Intelligence...
+Submitting analysis request for bank-statement-template-03.pdf (attempt 1/3)...
+Received Operation-Location for bank-statement-template-03.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/f351a19a-1743-43ee-ad3a-aae3bacf73ad?api-version=2024-11-30
+Submitting POST requests:  56%|███████████████████████████████████████████████████████████▋                                              | 27/48 [00:30<00:21,  1.04s/it]
+Processing file: inv-st.jpg
+Creating new blob client for inv-st.jpg
+SAS URL for findocs-testdata/inv-st.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/inv-st.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: inv-st.jpg to Azure Document Intelligence...
+Submitting analysis request for inv-st.jpg (attempt 1/3)...
+Received Operation-Location for inv-st.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/68a716f4-fa0c-49bc-a107-01ce4e35a785?api-version=2024-11-30
+Submitting POST requests:  58%|█████████████████████████████████████████████████████████████▊                                            | 28/48 [00:31<00:20,  1.02s/it]
+Processing file: inv-test.pdf
+Creating new blob client for inv-test.pdf
+SAS URL for findocs-testdata/inv-test.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/inv-test.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: inv-test.pdf to Azure Document Intelligence...
+Submitting analysis request for inv-test.pdf (attempt 1/3)...
+Received Operation-Location for inv-test.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ecee3646-13b9-4457-8739-e346476c99f3?api-version=2024-11-30
+Submitting POST requests:  60%|████████████████████████████████████████████████████████████████                                          | 29/48 [00:32<00:21,  1.11s/it]
+Processing file: makereceipt-receipt-maker.jpg
+Creating new blob client for makereceipt-receipt-maker.jpg
+SAS URL for findocs-testdata/makereceipt-receipt-maker.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/makereceipt-receipt-maker.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: makereceipt-receipt-maker.jpg to Azure Document Intelligence...
+Submitting analysis request for makereceipt-receipt-maker.jpg (attempt 1/3)...
+Received Operation-Location for makereceipt-receipt-maker.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d4143ba1-82ae-4c7d-8375-fe4306744a49?api-version=2024-11-30
+Submitting POST requests:  62%|██████████████████████████████████████████████████████████████████▎                                       | 30/48 [00:34<00:19,  1.10s/it]
+Processing file: onemore.pdf
+Creating new blob client for onemore.pdf
+SAS URL for findocs-testdata/onemore.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/onemore.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: onemore.pdf to Azure Document Intelligence...
+Submitting analysis request for onemore.pdf (attempt 1/3)...
+Received Operation-Location for onemore.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/21266609-abf4-49e2-8705-80bc1eb1e979?api-version=2024-11-30
+Submitting POST requests:  65%|████████████████████████████████████████████████████████████████████▍                                     | 31/48 [00:35<00:21,  1.24s/it]
+Processing file: original.jpg
+Creating new blob client for original.jpg
+SAS URL for findocs-testdata/original.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/original.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: original.jpg to Azure Document Intelligence...
+Submitting analysis request for original.jpg (attempt 1/3)...
+Received Operation-Location for original.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/0ab93166-e9a3-4ea6-931a-cc5ae56ab689?api-version=2024-11-30
+Submitting POST requests:  67%|██████████████████████████████████████████████████████████████████████▋                                   | 32/48 [00:36<00:18,  1.18s/it]
+Processing file: owytvbdwuwq81.jpg
+Creating new blob client for owytvbdwuwq81.jpg
+SAS URL for findocs-testdata/owytvbdwuwq81.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/owytvbdwuwq81.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: owytvbdwuwq81.jpg to Azure Document Intelligence...
+Submitting analysis request for owytvbdwuwq81.jpg (attempt 1/3)...
+Received Operation-Location for owytvbdwuwq81.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/0fb5dd92-d257-44c0-8cf6-32defe99d146?api-version=2024-11-30
+Submitting POST requests:  69%|████████████████████████████████████████████████████████████████████████▉                                 | 33/48 [00:37<00:17,  1.15s/it]
+Processing file: parts-of-Digital-receipt-1.png
+Creating new blob client for parts-of-Digital-receipt-1.png
+SAS URL for findocs-testdata/parts-of-Digital-receipt-1.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/parts-of-Digital-receipt-1.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: parts-of-Digital-receipt-1.png to Azure Document Intelligence...
+Submitting analysis request for parts-of-Digital-receipt-1.png (attempt 1/3)...
+Received Operation-Location for parts-of-Digital-receipt-1.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b96bf6e2-6321-43ed-b246-9287f4f4e471?api-version=2024-11-30
+Submitting POST requests:  71%|███████████████████████████████████████████████████████████████████████████                               | 34/48 [00:38<00:15,  1.12s/it]
+Processing file: receipts-to-cloud.webp
+Creating new blob client for receipts-to-cloud.webp
+SAS URL for findocs-testdata/receipts-to-cloud.webp: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/receipts-to-cloud.webp?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Skipping unsupported file type: receipts-to-cloud.webp
+
+Processing file: sample_&&_special.pdf
+Creating new blob client for sample_&&_special.pdf
+SAS URL for findocs-testdata/sample_&&_special.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: sample_&&_special.pdf to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special.pdf (attempt 1/3)...
+Received Operation-Location for sample_&&_special.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d7cffbce-230e-4a65-add7-50ea10fcccbf?api-version=2024-11-30
+Submitting POST requests:  75%|███████████████████████████████████████████████████████████████████████████████▌                          | 36/48 [00:39<00:10,  1.16it/s]
+Processing file: sample_&&_special1.png
+Creating new blob client for sample_&&_special1.png
+SAS URL for findocs-testdata/sample_&&_special1.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special1.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: sample_&&_special1.png to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special1.png (attempt 1/3)...
+Received Operation-Location for sample_&&_special1.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/49c8d39a-97c9-4ec7-b958-3aef67971c49?api-version=2024-11-30
+Submitting POST requests:  77%|█████████████████████████████████████████████████████████████████████████████████▋                        | 37/48 [00:40<00:10,  1.09it/s]
+Processing file: sample_&&_special2.jpg
+Creating new blob client for sample_&&_special2.jpg
+SAS URL for findocs-testdata/sample_&&_special2.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special2.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: sample_&&_special2.jpg to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special2.jpg (attempt 1/3)...
+Received Operation-Location for sample_&&_special2.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/8d1a0c46-64a0-4236-9c20-6776e15db198?api-version=2024-11-30
+Submitting POST requests:  79%|███████████████████████████████████████████████████████████████████████████████████▉                      | 38/48 [00:42<00:11,  1.12s/it]
+Processing file: sample_&&_special3.jpeg
+Creating new blob client for sample_&&_special3.jpeg
+SAS URL for findocs-testdata/sample_&&_special3.jpeg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special3.jpeg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: sample_&&_special3.jpeg to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special3.jpeg (attempt 1/3)...
+Received Operation-Location for sample_&&_special3.jpeg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/bc0f836b-096a-4ede-94d5-9623e146a50b?api-version=2024-11-30
+Submitting POST requests:  81%|██████████████████████████████████████████████████████████████████████████████████████▏                   | 39/48 [00:43<00:09,  1.09s/it]
+Processing file: sample_&&_special_1.pdf
+Creating new blob client for sample_&&_special_1.pdf
+SAS URL for findocs-testdata/sample_&&_special_1.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_1.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: sample_&&_special_1.pdf to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special_1.pdf (attempt 1/3)...
+Received Operation-Location for sample_&&_special_1.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ae3fa37e-881a-4a8e-89c0-c50e70053c8e?api-version=2024-11-30
+Submitting POST requests:  83%|████████████████████████████████████████████████████████████████████████████████████████▎                 | 40/48 [00:44<00:08,  1.07s/it]
+Processing file: sample_&&_special_2.pdf
+Creating new blob client for sample_&&_special_2.pdf
+SAS URL for findocs-testdata/sample_&&_special_2.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_2.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: sample_&&_special_2.pdf to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special_2.pdf (attempt 1/3)...
+Received Operation-Location for sample_&&_special_2.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/39a2b4c7-a419-486e-b2f5-58457e104fe2?api-version=2024-11-30
+Submitting POST requests:  85%|██████████████████████████████████████████████████████████████████████████████████████████▌               | 41/48 [00:45<00:07,  1.07s/it]
+Processing file: sample_&&_special_33.pdf
+Creating new blob client for sample_&&_special_33.pdf
+SAS URL for findocs-testdata/sample_&&_special_33.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/sample_%26%26_special_33.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: sample_&&_special_33.pdf to Azure Document Intelligence...
+Submitting analysis request for sample_&&_special_33.pdf (attempt 1/3)...
+Received Operation-Location for sample_&&_special_33.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d602feff-72e7-4fc2-9528-1ef6dbab18ac?api-version=2024-11-30
+Submitting POST requests:  88%|████████████████████████████████████████████████████████████████████████████████████████████▊             | 42/48 [00:46<00:06,  1.05s/it]
+Processing file: standard-grocery-receipt-template.png
+Creating new blob client for standard-grocery-receipt-template.png
+SAS URL for findocs-testdata/standard-grocery-receipt-template.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/standard-grocery-receipt-template.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: standard-grocery-receipt-template.png to Azure Document Intelligence...
+Submitting analysis request for standard-grocery-receipt-template.png (attempt 1/3)...
+Received Operation-Location for standard-grocery-receipt-template.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/91dafd60-e647-477e-8819-7a063e93f492?api-version=2024-11-30
+Submitting POST requests:  90%|██████████████████████████████████████████████████████████████████████████████████████████████▉           | 43/48 [00:47<00:05,  1.06s/it]
+Processing file: testinginv.png
+Creating new blob client for testinginv.png
+SAS URL for findocs-testdata/testinginv.png: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/testinginv.png?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: testinginv.png to Azure Document Intelligence...
+Submitting analysis request for testinginv.png (attempt 1/3)...
+Received Operation-Location for testinginv.png: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b62869e3-5148-49d6-ac3b-5a1a84b0861f?api-version=2024-11-30
+Submitting POST requests:  92%|█████████████████████████████████████████████████████████████████████████████████████████████████▏        | 44/48 [00:48<00:04,  1.04s/it]
+Processing file: w2_form_employee_4up_m.jpg
+Creating new blob client for w2_form_employee_4up_m.jpg
+SAS URL for findocs-testdata/w2_form_employee_4up_m.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_4up_m.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: w2_form_employee_4up_m.jpg to Azure Document Intelligence...
+Submitting analysis request for w2_form_employee_4up_m.jpg (attempt 1/3)...
+Received Operation-Location for w2_form_employee_4up_m.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d75e8aac-90f1-4122-a5d5-03b04ee2aaec?api-version=2024-11-30
+Submitting POST requests:  94%|███████████████████████████████████████████████████████████████████████████████████████████████████▍      | 45/48 [00:49<00:03,  1.02s/it]
+Processing file: w2_form_employee_4up_m.pdf
+Creating new blob client for w2_form_employee_4up_m.pdf
+SAS URL for findocs-testdata/w2_form_employee_4up_m.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_4up_m.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: w2_form_employee_4up_m.pdf to Azure Document Intelligence...
+Submitting analysis request for w2_form_employee_4up_m.pdf (attempt 1/3)...
+Received Operation-Location for w2_form_employee_4up_m.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ae8e258d-fc1e-4ac9-b364-16ed75555d20?api-version=2024-11-30
+Submitting POST requests:  96%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌    | 46/48 [00:50<00:02,  1.03s/it]
+Processing file: w2_form_employee_copy_m.jpg
+Creating new blob client for w2_form_employee_copy_m.jpg
+SAS URL for findocs-testdata/w2_form_employee_copy_m.jpg: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/w2_form_employee_copy_m.jpg?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting image file: w2_form_employee_copy_m.jpg to Azure Document Intelligence...
+Submitting analysis request for w2_form_employee_copy_m.jpg (attempt 1/3)...
+Received Operation-Location for w2_form_employee_copy_m.jpg: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/40bf6f0d-48dc-48a0-aa65-ded7a7e39b89?api-version=2024-11-30
+Submitting POST requests:  98%|███████████████████████████████████████████████████████████████████████████████████████████████████████▊  | 47/48 [00:51<00:01,  1.03s/it]
+Processing file: yetanothersample.pdf
+Creating new blob client for yetanothersample.pdf
+SAS URL for findocs-testdata/yetanothersample.pdf: https://ganymedej.blob.core.windows.net/ganymedej/findocs-testdata/yetanothersample.pdf?sv=2024-11-04&ss=b&srt=sco&sp=rwdlaciyx&se=2025-03-24T10%3A18%3A25Z&st=2025-03-24T02%3A18%3A25Z&spr=https&sig=UxlXIdRlXCco7koyQSpbgzppLEE%2FCO0KsYIo%2FT773GY%3D
+--------------------------------------------------
+Submitting document file: yetanothersample.pdf to Azure Document Intelligence...
+Submitting analysis request for yetanothersample.pdf (attempt 1/3)...
+Received Operation-Location for yetanothersample.pdf: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/839a8a5c-4b1e-48af-b499-362c35182255?api-version=2024-11-30
+Submitting POST requests: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 48/48 [00:53<00:00,  1.11s/it]
+
+==================== STEP 2: Polling GET endpoints ====================
+Successfully submitted 47 documents. Starting to poll for results...
+
+Polling results for 1MLRlL9W69PMWAcTF-rV36Q.jpeg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/8838a5cb-7681-4b52-bcf1-b370de5f26f8?api-version=2024-11-30
+Polling GET URL for 1MLRlL9W69PMWAcTF-rV36Q.jpeg (attempt 1/3)...
+Analysis succeeded for 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Successfully received classification results for 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Successfully processed: 1MLRlL9W69PMWAcTF-rV36Q.jpeg
+Classification: invoice with confidence: 0.623
+
+Polling results for 1_wb4T27TbmOlcuZfcETHhSQ.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/2dc4a152-04a4-4562-8ab2-c2817e15e5ea?api-version=2024-11-30
+Polling GET URL for 1_wb4T27TbmOlcuZfcETHhSQ.jpg (attempt 1/3)...
+Analysis succeeded for 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Successfully received classification results for 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Successfully processed: 1_wb4T27TbmOlcuZfcETHhSQ.jpg
+Classification: receipt with confidence: 0.250
+
+Polling results for 2024-Form-W-2-1.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/fc720cf6-2bcb-406f-a208-398824764a68?api-version=2024-11-30
+Polling GET URL for 2024-Form-W-2-1.pdf (attempt 1/3)...
+Analysis succeeded for 2024-Form-W-2-1.pdf
+Successfully received classification results for 2024-Form-W-2-1.pdf
+Successfully processed: 2024-Form-W-2-1.pdf
+Classification: W2 with confidence: 0.790
+
+Polling results for 4biahkmthcf41.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5c2129e8-518d-46b9-99e8-1a72ef4518c8?api-version=2024-11-30
+Polling GET URL for 4biahkmthcf41.jpg (attempt 1/3)...
+Analysis succeeded for 4biahkmthcf41.jpg
+Successfully received classification results for 4biahkmthcf41.jpg
+Successfully processed: 4biahkmthcf41.jpg
+Classification: receipt with confidence: 0.259
+
+Polling results for BBAV-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5fcf5083-32ef-4afe-ad2f-8a1e378258c1?api-version=2024-11-30
+Polling GET URL for BBAV-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for BBAV-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for BBAV-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: BBAV-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.673
+
+Polling results for BBT-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d2968126-2e5d-4e54-98a4-ff933bac4459?api-version=2024-11-30
+Polling GET URL for BBT-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for BBT-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for BBT-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: BBT-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.454
+
+Polling results for Bank-Statement-Template-1-TemplateLab.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b790384f-c703-4064-85b6-c09af313dd44?api-version=2024-11-30
+Polling GET URL for Bank-Statement-Template-1-TemplateLab.pdf (attempt 1/3)...
+Analysis succeeded for Bank-Statement-Template-1-TemplateLab.pdf
+Successfully received classification results for Bank-Statement-Template-1-TemplateLab.pdf
+Successfully processed: Bank-Statement-Template-1-TemplateLab.pdf
+Classification: bank-statement with confidence: 0.387
+
+Polling results for Bank-Statement-Template-2-TemplateLab.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/27431968-35e8-4b35-8c42-3aca90848278?api-version=2024-11-30
+Polling GET URL for Bank-Statement-Template-2-TemplateLab.pdf (attempt 1/3)...
+Analysis succeeded for Bank-Statement-Template-2-TemplateLab.pdf
+Successfully received classification results for Bank-Statement-Template-2-TemplateLab.pdf
+Successfully processed: Bank-Statement-Template-2-TemplateLab.pdf
+Classification: invoice with confidence: 0.292
+
+Polling results for Brandys-walmart-receipt-8.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/09ae6b5c-e5cc-459b-8f49-13e94e86f5f0?api-version=2024-11-30
+Polling GET URL for Brandys-walmart-receipt-8.png (attempt 1/3)...
+Analysis succeeded for Brandys-walmart-receipt-8.png
+Successfully received classification results for Brandys-walmart-receipt-8.png
+Successfully processed: Brandys-walmart-receipt-8.png
+Classification: bank-statement with confidence: 0.349
+
+Polling results for Inv5009113.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d42852a6-c1fa-4fb7-bb54-909da8121ca0?api-version=2024-11-30
+Polling GET URL for Inv5009113.pdf (attempt 1/3)...
+Analysis succeeded for Inv5009113.pdf
+Successfully received classification results for Inv5009113.pdf
+Successfully processed: Inv5009113.pdf
+Classification: invoice with confidence: 0.462
+Wrote batch of 10 entries to mut_classification_predictions_dataset.jsonl
+
+Polling results for Invoice INV-0853.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/be9a22fa-0422-4ef3-ba89-db6d9b0ba3ce?api-version=2024-11-30
+Polling GET URL for Invoice INV-0853.pdf (attempt 1/3)...
+Analysis succeeded for Invoice INV-0853.pdf
+Successfully received classification results for Invoice INV-0853.pdf
+Successfully processed: Invoice INV-0853.pdf
+Classification: invoice with confidence: 0.324
+
+Polling results for Invoice.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/c18e6780-ce80-495d-af3c-d141ddfb9114?api-version=2024-11-30
+Polling GET URL for Invoice.pdf (attempt 1/3)...
+Analysis succeeded for Invoice.pdf
+Successfully received classification results for Invoice.pdf
+Successfully processed: Invoice.pdf
+Classification: bank-statement with confidence: 0.328
+
+Polling results for Lloyds-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/404f7308-36b6-4366-82db-cdec7a9a66eb?api-version=2024-11-30
+Polling GET URL for Lloyds-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: Lloyds-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.285
+
+Polling results for Nationwide-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/4db4f6eb-d495-42d7-85b3-beb051b76f86?api-version=2024-11-30
+Polling GET URL for Nationwide-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: Nationwide-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.319
+
+Polling results for RBS-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/cd7656b9-81f6-46a6-85b4-6c6630426613?api-version=2024-11-30
+Polling GET URL for RBS-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for RBS-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for RBS-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: RBS-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.496
+
+Polling results for Receipts-Papers.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/cc158146-e4bf-46fd-9f4e-a3a0d4e33937?api-version=2024-11-30
+Polling GET URL for Receipts-Papers.png (attempt 1/3)...
+Analysis succeeded for Receipts-Papers.png
+Successfully received classification results for Receipts-Papers.png
+Successfully processed: Receipts-Papers.png
+Classification: receipt with confidence: 0.361
+
+Polling results for TCF-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/451fb41c-ddca-409b-9293-42f6b74ce92d?api-version=2024-11-30
+Polling GET URL for TCF-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for TCF-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for TCF-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: TCF-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.448
+
+Polling results for TD-Bank-Statement-TemplateLab.com_.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/5b0c707a-32f1-44aa-83a9-17bed1b7ffed?api-version=2024-11-30
+Polling GET URL for TD-Bank-Statement-TemplateLab.com_.pdf (attempt 1/3)...
+Analysis succeeded for TD-Bank-Statement-TemplateLab.com_.pdf
+Successfully received classification results for TD-Bank-Statement-TemplateLab.com_.pdf
+Successfully processed: TD-Bank-Statement-TemplateLab.com_.pdf
+Classification: bank-statement with confidence: 0.731
+
+Polling results for TaxInvoiceAD1242501AN32927.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/3e955298-f5ca-4b7e-9465-2dcc3777b5bb?api-version=2024-11-30
+Polling GET URL for TaxInvoiceAD1242501AN32927.pdf (attempt 1/3)...
+Analysis succeeded for TaxInvoiceAD1242501AN32927.pdf
+Successfully received classification results for TaxInvoiceAD1242501AN32927.pdf
+Successfully processed: TaxInvoiceAD1242501AN32927.pdf
+Classification: invoice with confidence: 0.222
+
+Polling results for UNMzX.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/4d03f1e8-327c-4b69-a3ba-342d97ed12cf?api-version=2024-11-30
+Polling GET URL for UNMzX.jpg (attempt 1/3)...
+Analysis succeeded for UNMzX.jpg
+Successfully received classification results for UNMzX.jpg
+Successfully processed: UNMzX.jpg
+Classification: W2 with confidence: 0.307
+Wrote batch of 10 entries to mut_classification_predictions_dataset.jsonl
+
+Polling results for UNMzX.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ce8316cb-7aa8-4287-84e8-5455a2d01d78?api-version=2024-11-30
+Polling GET URL for UNMzX.pdf (attempt 1/3)...
+Analysis succeeded for UNMzX.pdf
+Successfully received classification results for UNMzX.pdf
+Successfully processed: UNMzX.pdf
+Classification: W2 with confidence: 0.280
+
+Polling results for W2-sample3.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/92790da2-fc0b-4fa3-a156-13334690f5cc?api-version=2024-11-30
+Polling GET URL for W2-sample3.pdf (attempt 1/3)...
+Analysis succeeded for W2-sample3.pdf
+Successfully received classification results for W2-sample3.pdf
+Successfully processed: W2-sample3.pdf
+Classification: W2 with confidence: 0.759
+
+Polling results for W2sample1.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/bc942a8e-78d8-4793-b0a4-fcc062a1db70?api-version=2024-11-30
+Polling GET URL for W2sample1.pdf (attempt 1/3)...
+Analysis succeeded for W2sample1.pdf
+Successfully received classification results for W2sample1.pdf
+Successfully processed: W2sample1.pdf
+Classification: W2 with confidence: 0.758
+
+Polling results for W2sample2.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/a54f8248-45a6-4c1e-9458-e1096d663ea0?api-version=2024-11-30
+Polling GET URL for W2sample2.pdf (attempt 1/3)...
+Analysis succeeded for W2sample2.pdf
+Successfully received classification results for W2sample2.pdf
+Successfully processed: W2sample2.pdf
+Classification: W2 with confidence: 0.756
+
+Polling results for anothersample.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/a10ce9d3-2267-47dd-844d-5ce23d258e00?api-version=2024-11-30
+Polling GET URL for anothersample.pdf (attempt 1/3)...
+Analysis succeeded for anothersample.pdf
+Successfully received classification results for anothersample.pdf
+Successfully processed: anothersample.pdf
+Classification: bank-statement with confidence: 0.196
+
+Polling results for bank-statement-template-01.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/1c962700-1e70-41c6-8600-707d1de8a79d?api-version=2024-11-30
+Polling GET URL for bank-statement-template-01.pdf (attempt 1/3)...
+Analysis succeeded for bank-statement-template-01.pdf
+Successfully received classification results for bank-statement-template-01.pdf
+Successfully processed: bank-statement-template-01.pdf
+Classification: invoice with confidence: 0.354
+
+Polling results for bank-statement-template-03.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/f351a19a-1743-43ee-ad3a-aae3bacf73ad?api-version=2024-11-30
+Polling GET URL for bank-statement-template-03.pdf (attempt 1/3)...
+Analysis succeeded for bank-statement-template-03.pdf
+Successfully received classification results for bank-statement-template-03.pdf
+Successfully processed: bank-statement-template-03.pdf
+Classification: bank-statement with confidence: 0.198
+
+Polling results for inv-st.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/68a716f4-fa0c-49bc-a107-01ce4e35a785?api-version=2024-11-30
+Polling GET URL for inv-st.jpg (attempt 1/3)...
+Analysis succeeded for inv-st.jpg
+Successfully received classification results for inv-st.jpg
+Successfully processed: inv-st.jpg
+Classification: receipt with confidence: 0.266
+
+Polling results for inv-test.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ecee3646-13b9-4457-8739-e346476c99f3?api-version=2024-11-30
+Polling GET URL for inv-test.pdf (attempt 1/3)...
+Analysis succeeded for inv-test.pdf
+Successfully received classification results for inv-test.pdf
+Successfully processed: inv-test.pdf
+Classification: bank-statement with confidence: 0.217
+
+Polling results for makereceipt-receipt-maker.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d4143ba1-82ae-4c7d-8375-fe4306744a49?api-version=2024-11-30
+Polling GET URL for makereceipt-receipt-maker.jpg (attempt 1/3)...
+Analysis succeeded for makereceipt-receipt-maker.jpg
+Successfully received classification results for makereceipt-receipt-maker.jpg
+Successfully processed: makereceipt-receipt-maker.jpg
+Classification: receipt with confidence: 0.620
+Wrote batch of 10 entries to mut_classification_predictions_dataset.jsonl
+
+Polling results for onemore.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/21266609-abf4-49e2-8705-80bc1eb1e979?api-version=2024-11-30
+Polling GET URL for onemore.pdf (attempt 1/3)...
+Analysis succeeded for onemore.pdf
+Successfully received classification results for onemore.pdf
+Successfully processed: onemore.pdf
+Classification: receipt with confidence: 0.310
+
+Polling results for original.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/0ab93166-e9a3-4ea6-931a-cc5ae56ab689?api-version=2024-11-30
+Polling GET URL for original.jpg (attempt 1/3)...
+Analysis succeeded for original.jpg
+Successfully received classification results for original.jpg
+Successfully processed: original.jpg
+Classification: W2 with confidence: 0.476
+
+Polling results for owytvbdwuwq81.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/0fb5dd92-d257-44c0-8cf6-32defe99d146?api-version=2024-11-30
+Polling GET URL for owytvbdwuwq81.jpg (attempt 1/3)...
+Analysis succeeded for owytvbdwuwq81.jpg
+Successfully received classification results for owytvbdwuwq81.jpg
+Successfully processed: owytvbdwuwq81.jpg
+Classification: receipt with confidence: 0.593
+
+Polling results for parts-of-Digital-receipt-1.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b96bf6e2-6321-43ed-b246-9287f4f4e471?api-version=2024-11-30
+Polling GET URL for parts-of-Digital-receipt-1.png (attempt 1/3)...
+Analysis succeeded for parts-of-Digital-receipt-1.png
+Successfully received classification results for parts-of-Digital-receipt-1.png
+Successfully processed: parts-of-Digital-receipt-1.png
+Classification: receipt with confidence: 0.489
+
+Polling results for sample_&&_special.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d7cffbce-230e-4a65-add7-50ea10fcccbf?api-version=2024-11-30
+Polling GET URL for sample_&&_special.pdf (attempt 1/3)...
+Analysis succeeded for sample_&&_special.pdf
+Successfully received classification results for sample_&&_special.pdf
+Successfully processed: sample_&&_special.pdf
+Classification: bank-statement with confidence: 0.370
+
+Polling results for sample_&&_special1.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/49c8d39a-97c9-4ec7-b958-3aef67971c49?api-version=2024-11-30
+Polling GET URL for sample_&&_special1.png (attempt 1/3)...
+Analysis succeeded for sample_&&_special1.png
+Successfully received classification results for sample_&&_special1.png
+Successfully processed: sample_&&_special1.png
+Classification: invoice with confidence: 0.273
+
+Polling results for sample_&&_special2.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/8d1a0c46-64a0-4236-9c20-6776e15db198?api-version=2024-11-30
+Polling GET URL for sample_&&_special2.jpg (attempt 1/3)...
+Analysis succeeded for sample_&&_special2.jpg
+Successfully received classification results for sample_&&_special2.jpg
+Successfully processed: sample_&&_special2.jpg
+Classification: receipt with confidence: 0.295
+
+Polling results for sample_&&_special3.jpeg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/bc0f836b-096a-4ede-94d5-9623e146a50b?api-version=2024-11-30
+Polling GET URL for sample_&&_special3.jpeg (attempt 1/3)...
+Analysis succeeded for sample_&&_special3.jpeg
+Successfully received classification results for sample_&&_special3.jpeg
+Successfully processed: sample_&&_special3.jpeg
+Classification: receipt with confidence: 0.589
+
+Polling results for sample_&&_special_1.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ae3fa37e-881a-4a8e-89c0-c50e70053c8e?api-version=2024-11-30
+Polling GET URL for sample_&&_special_1.pdf (attempt 1/3)...
+Analysis succeeded for sample_&&_special_1.pdf
+Successfully received classification results for sample_&&_special_1.pdf
+Successfully processed: sample_&&_special_1.pdf
+Classification: bank-statement with confidence: 0.359
+
+Polling results for sample_&&_special_2.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/39a2b4c7-a419-486e-b2f5-58457e104fe2?api-version=2024-11-30
+Polling GET URL for sample_&&_special_2.pdf (attempt 1/3)...
+Analysis succeeded for sample_&&_special_2.pdf
+Successfully received classification results for sample_&&_special_2.pdf
+Successfully processed: sample_&&_special_2.pdf
+Classification: invoice with confidence: 0.259
+Wrote batch of 10 entries to mut_classification_predictions_dataset.jsonl
+
+Polling results for sample_&&_special_33.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d602feff-72e7-4fc2-9528-1ef6dbab18ac?api-version=2024-11-30
+Polling GET URL for sample_&&_special_33.pdf (attempt 1/3)...
+Analysis succeeded for sample_&&_special_33.pdf
+Successfully received classification results for sample_&&_special_33.pdf
+Successfully processed: sample_&&_special_33.pdf
+Classification: W2 with confidence: 0.432
+
+Polling results for standard-grocery-receipt-template.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/91dafd60-e647-477e-8819-7a063e93f492?api-version=2024-11-30
+Polling GET URL for standard-grocery-receipt-template.png (attempt 1/3)...
+Analysis succeeded for standard-grocery-receipt-template.png
+Successfully received classification results for standard-grocery-receipt-template.png
+Successfully processed: standard-grocery-receipt-template.png
+Classification: receipt with confidence: 0.395
+
+Polling results for testinginv.png with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/b62869e3-5148-49d6-ac3b-5a1a84b0861f?api-version=2024-11-30
+Polling GET URL for testinginv.png (attempt 1/3)...
+Analysis succeeded for testinginv.png
+Successfully received classification results for testinginv.png
+Successfully processed: testinginv.png
+Classification: receipt with confidence: 0.190
+
+Polling results for w2_form_employee_4up_m.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/d75e8aac-90f1-4122-a5d5-03b04ee2aaec?api-version=2024-11-30
+Polling GET URL for w2_form_employee_4up_m.jpg (attempt 1/3)...
+Analysis succeeded for w2_form_employee_4up_m.jpg
+Successfully received classification results for w2_form_employee_4up_m.jpg
+Successfully processed: w2_form_employee_4up_m.jpg
+Classification: receipt with confidence: 0.246
+
+Polling results for w2_form_employee_4up_m.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/ae8e258d-fc1e-4ac9-b364-16ed75555d20?api-version=2024-11-30
+Polling GET URL for w2_form_employee_4up_m.pdf (attempt 1/3)...
+Analysis succeeded for w2_form_employee_4up_m.pdf
+Successfully received classification results for w2_form_employee_4up_m.pdf
+Successfully processed: w2_form_employee_4up_m.pdf
+Classification: receipt with confidence: 0.180
+
+Polling results for w2_form_employee_copy_m.jpg with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/40bf6f0d-48dc-48a0-aa65-ded7a7e39b89?api-version=2024-11-30
+Polling GET URL for w2_form_employee_copy_m.jpg (attempt 1/3)...
+Analysis succeeded for w2_form_employee_copy_m.jpg
+Successfully received classification results for w2_form_employee_copy_m.jpg
+Successfully processed: w2_form_employee_copy_m.jpg
+Classification: W2 with confidence: 0.453
+
+Polling results for yetanothersample.pdf with URL: https://ganymedej.cognitiveservices.azure.com/documentintelligence/documentClassifiers/md-doc-classifier/analyzeResults/839a8a5c-4b1e-48af-b499-362c35182255?api-version=2024-11-30
+Polling GET URL for yetanothersample.pdf (attempt 1/3)...
+Analysis succeeded for yetanothersample.pdf
+Successfully received classification results for yetanothersample.pdf
+Successfully processed: yetanothersample.pdf
+Classification: bank-statement with confidence: 0.201
+Wrote final batch of 7 entries to mut_classification_predictions_dataset.jsonl
+
+==================== SUMMARY ====================
+Processing complete. 47 files successfully processed, 0 errors.
+Results saved to mut_classification_predictions_dataset.jsonl
